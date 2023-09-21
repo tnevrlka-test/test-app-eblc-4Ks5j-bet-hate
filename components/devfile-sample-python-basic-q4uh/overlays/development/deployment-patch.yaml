@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-q4uh
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-vfbj-tenant/test-app-eblc/devfile-sample-python-basic-q4uh@sha256:045f6b3b913c52ba3f589cda12ec36ec7cd5bf3d719d1069a34e9fc06bfd222a
+        name: my-python
+        resources: {}
+status: {}
